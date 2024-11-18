@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"),
+    url("fonts/playfair-display.ttf") format("truetype")
+}
+
+:root {
+  --paper-color:#fdf3d0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(#2a38d2, #30056e) ;
+  
+}
+
+.aviso {
+  width: 600px;
+  height: 750px;
+  margin: auto;
+  background-image: linear-gradient(#f5de8a, #fdf3d0) ;
+  padding: 30px;
+  border-radius: 10px 10px 40px;
+  box-shadow: 16px 16px 40px rgb(0 0 0 / 60%);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size:50px;
+}
+
+#stewie {
+  display: block;
+  margin: 20px auto; 
+  width: 200px; 
+  height: 200px;
+}
+
+#nombre{
+  background-color: #f9f9f9; 
+  box-sizing: border-box;
+}
+
+input {
+  width: 100%;
+  max-width: 100px;
+  height: 25px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
